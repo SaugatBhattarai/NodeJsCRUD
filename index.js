@@ -1,5 +1,3 @@
-// SAUGAT BHATTARAI TEST ONE FULL STACK SOFTWARE DEVELOPMENT
-
 const express = require('express')
 const app = express()
 app.use(express.json());
@@ -22,7 +20,7 @@ const cityWeatherData = [
 {
   city: "vancover",
   longitude: "43.7",
-  latitude: "-79.42",
+  latitude: "80",
   state: "Ontario",
   country: "Canada",
   weather: "sunny",
@@ -33,7 +31,7 @@ const cityWeatherData = [
 },
 {
   city: "ottawa",
-  longitude: "43.7",
+  longitude: "50",
   latitude: "-79.42",
   state: "Ontario",
   country: "Canada",
@@ -47,7 +45,7 @@ const cityWeatherData = [
 
 //Default Route /
 app.get('/', function (req, res) {
-  res.send('Hello Saugat Bhattarai. Test 1 for FullStack Software Development')
+  res.send('Hello Saugat Bhattarai. ')
 })
 
 // get weather of all cities
