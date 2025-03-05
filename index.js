@@ -14,12 +14,12 @@ const cityWeatherData = [
     weather: "sunny",
     temperature: "25",
     humidity: "30",
-    windspeed: "10",
+    windspeed: "90",
     direction:"E"
 },
 {
   city: "vancover",
-  longitude: "43.7",
+  longitude: "42",
   latitude: "80",
   state: "Ontario",
   country: "Canada",
@@ -27,7 +27,7 @@ const cityWeatherData = [
   temperature: "25",
   humidity: "30",
   windspeed: "10",
-  direction:"E"
+  direction:"W"
 },
 {
   city: "ottawa",
@@ -39,7 +39,7 @@ const cityWeatherData = [
   temperature: "25",
   humidity: "30",
   windspeed: "10",
-  direction:"E"
+  direction:"N"
 }
 ]
 
